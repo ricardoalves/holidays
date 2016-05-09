@@ -36,6 +36,9 @@ months:
   - name: Dia do Trabalhador
     regions: [pt]
     mday: 1
+  - name: Corpo de Deus
+    regions: [pt]
+    mday: 26
   6:
   - name: Dia de Portugal
     regions: [pt]
@@ -44,6 +47,10 @@ months:
   - name: Assunção de Nossa Senhora
     regions: [pt]
     mday: 15
+  10:
+  - name: Implantação da República
+    regions: [pt]
+    mday: 5
   12:
   - name: Imaculada Conceição
     regions: [pt]
@@ -61,8 +68,10 @@ tests: |
      Date.civil(2008,3,23) => 'Páscoa',
      Date.civil(2008,4,25) => 'Dia da Liberdade',
      Date.civil(2008,5,1) => 'Dia do Trabalhador',
+     Date.civil(2008,5,1) => 'Corpo de Deus',
      Date.civil(2008,6,10) => 'Dia de Portugal',
      Date.civil(2008,8,15) => 'Assunção de Nossa Senhora',
+     Date.civil(2008,10,5) => 'Implantação da República',
      Date.civil(2008,12,8) => 'Imaculada Conceição',
      Date.civil(2008,12,25) => 'Natal'}.each do |date, name|
       assert_equal name, (Holidays.on(date, :pt, :informal)[0] || {})[:name]
