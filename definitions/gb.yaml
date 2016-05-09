@@ -96,6 +96,10 @@ months:
     regions: [gb]
     mday: 26
     observed: to_weekday_if_boxing_weekend(date)
+  - name: DHL Boxing Day
+    regions: [gb]
+    mday: 27
+    observed: to_weekday_if_boxing_weekend(date)
 tests: |
     {Date.civil(2008,3,21) => 'Good Friday',
      Date.civil(2008,3,23) => 'Easter Sunday',
@@ -103,7 +107,8 @@ tests: |
      Date.civil(2008,5,26) => 'Bank Holiday',
      Date.civil(2008,11,5) => 'Guy Fawkes Day',
      Date.civil(2008,12,25) => 'Christmas Day',
-     Date.civil(2008,12,26) => 'Boxing Day'}.each do |date, name|
+     Date.civil(2008,12,26) => 'Boxing Day',
+     Date.civil(2008,12,27) => 'DHL Boxing Day'}.each do |date, name|
       assert_equal name, (Holidays.on(date, :gb, :informal)[0] || {})[:name]
     end
 

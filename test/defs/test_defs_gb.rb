@@ -13,7 +13,8 @@ class GbDefinitionTests < Test::Unit::TestCase  # :nodoc:
  Date.civil(2008,5,26) => 'Bank Holiday',
  Date.civil(2008,11,5) => 'Guy Fawkes Day',
  Date.civil(2008,12,25) => 'Christmas Day',
- Date.civil(2008,12,26) => 'Boxing Day'}.each do |date, name|
+ Date.civil(2008,12,26) => 'Boxing Day',
+ Date.civil(2008,12,27) => 'DHL Boxing Day'}.each do |date, name|
   assert_equal name, (Holidays.on(date, :gb, :informal)[0] || {})[:name]
 end
 

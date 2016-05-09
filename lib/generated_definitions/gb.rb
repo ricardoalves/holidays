@@ -36,7 +36,8 @@ module Holidays
             {:mday => 30,  :year_ranges => [{:before => 2006}],:observed => "to_monday_if_weekend(date)", :observed_arguments => [:date], :type => :informal, :name => "St. Andrew's Day", :regions => [:gb_sct]},
             {:mday => 30,  :year_ranges => [{:after => 2007}],:observed => "to_monday_if_weekend(date)", :observed_arguments => [:date], :name => "St. Andrew's Day", :regions => [:gb_sct]}],
       12 => [{:mday => 25, :observed => "to_monday_if_weekend(date)", :observed_arguments => [:date], :name => "Christmas Day", :regions => [:gb]},
-            {:mday => 26, :observed => "to_weekday_if_boxing_weekend(date)", :observed_arguments => [:date], :name => "Boxing Day", :regions => [:gb]}]
+            {:mday => 26, :observed => "to_weekday_if_boxing_weekend(date)", :observed_arguments => [:date], :name => "Boxing Day", :regions => [:gb]},
+            {:mday => 27, :observed => "to_weekday_if_boxing_weekend(date)", :observed_arguments => [:date], :name => "DHL Boxing Day", :regions => [:gb]}]
       }
     end
 
