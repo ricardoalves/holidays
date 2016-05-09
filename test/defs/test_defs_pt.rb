@@ -17,7 +17,7 @@ class PtDefinitionTests < Test::Unit::TestCase  # :nodoc:
  Date.civil(2008,4,25) => 'Dia da Liberdade',
  Date.civil(2008,5,1) => 'Dia do Trabalhador',
  Date.civil(2008,5,26) => 'Corpo de Deus',
- Date.civil(2008,6,10) => 'Dia de Portugal',
+ Date.civil(2008,6,10) => 'Dia de Portugal, de Camões e das Comunidades Portuguesas',
  Date.civil(2008,8,15) => 'Assunção de Nossa Senhora',
  Date.civil(2008,10,5) => 'Implantação da República',
  Date.civil(2008,12,1) => 'Restauração da Independência',

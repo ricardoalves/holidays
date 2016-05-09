@@ -25,7 +25,7 @@ module Holidays
       4 => [{:mday => 25, :name => "Dia da Liberdade", :regions => [:pt]}],
       5 => [{:mday => 1, :name => "Dia do Trabalhador", :regions => [:pt]},
             {:mday => 26, :name => "Corpo de Deus", :regions => [:pt]}],
-      6 => [{:mday => 10, :name => "Dia de Portugal", :regions => [:pt]}],
+      6 => [{:mday => 10, :name => "Dia de Portugal, de Camões e das Comunidades Portuguesas", :regions => [:pt]}],
       8 => [{:mday => 15, :name => "Assunção de Nossa Senhora", :regions => [:pt]}],
       10 => [{:mday => 5, :name => "Implantação da República", :regions => [:pt]}],
       12 => [{:mday => 1, :name => "Restauração da Independência", :regions => [:pt]},

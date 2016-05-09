@@ -450,7 +450,7 @@ module Holidays
             {:mday => 2, :name => "Festa della Repubblica", :regions => [:it]},
             {:mday => 24, :name => "Joninės", :regions => [:lt]},
             {:mday => 23, :type => :informal, :name => "Dzień Ojca", :regions => [:pl]},
-            {:mday => 10, :name => "Dia de Portugal", :regions => [:pt]},
+            {:mday => 10, :name => "Dia de Portugal, de Camões e das Comunidades Portuguesas", :regions => [:pt]},
             {:mday => 25, :name => "dan državnosti", :regions => [:si]}],
       9 => [{:mday => 22, :name => "Mauritiustag", :regions => [:ch_ai]},
             {:mday => 25, :name => "Bruderklausenfest", :regions => [:ch_ow]},
