@@ -43,6 +43,9 @@ months:
   - name: Dia de Portugal, de Camões e das Comunidades Portuguesas
     regions: [pt]
     mday: 10
+  - name: Dia de Santo António
+    regions: [pt]
+    mday: 13
   8:
   - name: Assunção de Nossa Senhora
     regions: [pt]
